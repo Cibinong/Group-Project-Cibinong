@@ -81,7 +81,7 @@ export default function Breeds() {
   };
 
   return (
-    <div>
+    <div className="pt-14  lg:pt-8 "> 
       <h1 className="lg:pt-14 pt-10 text-center font-bold text-3xl text-">
         Select by tempraments
       </h1>

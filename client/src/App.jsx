@@ -6,12 +6,12 @@ import store from "./store";
 
 function App() {
   return (
-    <div className="pt-14  lg:pt-8 ">
+    
       <Provider store={store}>
         <RouterProvider router={router} />
         <ToastContainer />
       </Provider>
-    </div>
+
   );
 }
 
